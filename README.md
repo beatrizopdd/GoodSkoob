@@ -61,9 +61,9 @@ PS_3: 99% de chance do livro entrar com o título em inglês mas as vezes, por u
 - volta para a página inicial
 - recomeça a partir da busca
 
-## MEUS PERFIS
+### MEUS PERFIS
 
-[<img align="left" alt="Icone do Skoob que redireciona para o meu perfil" width="32" src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_skoob_icon_157802.png" />](https://www.goodreads.com/user/show/117475440-beatriz-de-oliveira)
-[<img align="left" alt="Icone do Goodreads que redireciona para o meu perfil" width="32" src="https://cdn.icon-icons.com/icons2/1125/PNG/512/1486164216-goodreadslinerround_79638.png" />](https://www.skoob.com.br/usuario/2568230)
+[<img align="left" alt="Icone do Skoob que redireciona para o meu perfil" width="48" src="http://paginapessoal.utfpr.edu.br/sidgleyandrade/skoob.png/image" />](https://www.goodreads.com/user/show/117475440-beatriz-de-oliveira)
+[<img align="left" alt="Icone do Goodreads que redireciona para o meu perfil" width="48" src="https://cdn.icon-icons.com/icons2/1125/PNG/512/1486164216-goodreadslinerround_79638.png" />](https://www.skoob.com.br/usuario/2568230)
 
 
