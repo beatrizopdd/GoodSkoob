@@ -31,31 +31,33 @@ PS_3: 99% de chance do livro entrar com o título em inglês mas as vezes, por u
 - abre o navegador
 	- entra no site do skoob
 
-- abre o arquivo comos livros do goodreads
+- abre o arquivo com os livros do goodreads
 
 - entra na area de login
-	- endereça todos os campos e botão
+	- endereça todos os campos
 	- preenche os campos
-	- envia dados
+	- envia os dados
 
 - digita na barra de pesquisa
 	- clica na lupa
 
-- se for encontrado
+- **se for encontrado**
 	- seleciona o primeiro livro
 	- clica no botão adicionar
 	- adiciona na prateleira certa
 
-- se não for encontrado
+- **se não for encontrado**
 	- imprime `ERRO AO BUSCAR nome-do-livro`
 
-- se já for um livro lido
+- **se já for um livro lido**
 	- avalia com as estrelas
 	- abre a aba para editar as informações de leitura
 		- adiciona a data de leitura ou, caso ela esteja vazia, a data que foi adicionado a estante
 		- clica no botão salvar alterações
 		
-	- se ocorreu um erro na formatação do link
-		- imprime `ERRO AO DATAR nome-do-livro`
+- **se ocorreu um erro na formatação do link**
+	- imprime `ERRO AO DATAR nome-do-livro`
+	
 - volta para a página inicial
+- recomeça a partir da busca
 
