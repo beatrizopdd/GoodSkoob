@@ -13,8 +13,10 @@ Criei esse programa para exportar 301 livros do do Goodreads para o Skoobs. O ob
 - Abrir o arquivo "goodskoob.py" e, nas linhas 16 e 17, digitar seu usuário e senha dentro das aspas, salva e fecha;
 
 username = "email@fulano.com"
+
 password = "uva321pera"
 
+### OBSERVAÇÕES
 
 PS_0: Isso aqui é pensado em quem já tem conhecimento prévio em python e programação.
 
@@ -28,6 +30,7 @@ PS_3: 99% de chance do livro entrar com o título em inglês mas as vezes, por u
 
 - abre o navegador
 - entra no site do skoob
+
 
 - abre o arquivo comos livros do goodreads
 
