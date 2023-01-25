@@ -8,9 +8,9 @@ Criei esse programa para exportar 301 livros do do Goodreads para o Skoobs. O ob
 
 - Copiar o arquivo pra pasta do projeto;
 
-- Abrir o arquivo csv e apagar a primeira linha de cabeçalho, salva e fecha;
+- Abrir o arquivo csv e apagar a primeira linha de cabeçalho, salvar e fechar;
 
-- Abrir o arquivo "goodskoob.py" e, nas linhas 16 e 17, digitar seu usuário e senha dentro das aspas, salva e fecha;
+- Abrir o arquivo "goodskoob.py" e, nas linhas 16 e 17, digitar seu usuário e senha dentro das aspas, salvar e fechar;
 
 username = "email@fulano.com"
 
@@ -63,7 +63,7 @@ PS_3: 99% de chance do livro entrar com o título em inglês mas as vezes, por u
 
 ## MEUS PERFIS
 
-[<img align="left" alt="Icone do Skoob que redireciona para o meu perfil" height="50" src="http://paginapessoal.utfpr.edu.br/sidgleyandrade/skoob.png/image" />](https://www.goodreads.com/user/show/117475440-beatriz-de-oliveira)
-[<img align="left" alt="Icone do Goodreads que redireciona para o meu perfil" height="50" src="https://cdn.icon-icons.com/icons2/1125/PNG/512/1486164216-goodreadslinerround_79638.png" />](https://www.skoob.com.br/usuario/2568230)
+[<img align="left" alt="Icone do Skoob que redireciona para o meu perfil" height="50" src="http://paginapessoal.utfpr.edu.br/sidgleyandrade/skoob.png/image" />](https://www.skoob.com.br/usuario/2568230)
+[<img align="left" alt="Icone do Goodreads que redireciona para o meu perfil" height="50" src="https://cdn.icon-icons.com/icons2/1125/PNG/512/1486164216-goodreadslinerround_79638.png" />](https://www.goodreads.com/user/show/117475440-beatriz-de-oliveira)
 
 
