@@ -63,13 +63,11 @@ def guardar(nome, status, browser):
 	
 	if (status == "to-read"):
 		browser.find_element("xpath", "/html/body/div/div[2]/div[3]/div/div/div[1]/div/div[5]/button-shelf/div/ul/li[3]/a").click()
-		
-		print("Quero ler:", nome)
+
 		
 	elif (status == "currently-reading"):
 		browser.find_element("xpath", "/html/body/div/div[2]/div[3]/div/div/div[1]/div/div[5]/button-shelf/div/ul/li[2]/a").click()
-		
-		print("Lendo:", nome)
+
 		
 	elif (status == "read"):
 		browser.find_element("xpath", "/html/body/div/div[2]/div[3]/div/div/div[1]/div/div[5]/button-shelf/div/ul/li[1]/a").click()
@@ -135,8 +133,6 @@ def datar(data, nome, browser):
 		
 		browser.find_element("xpath", "/html/body/div/div[2]/form/input").click()
 		browser.get("https://www.skoob.com.br/")
-		
-		print("Lido:", nome)
 	
 	except NoSuchElementException:
 		browser.get("https://www.skoob.com.br/")

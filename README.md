@@ -1,67 +1,41 @@
-<h1 align="center"> :book: GoodSkoob :book: </h1>
+# GOODSKOOB
+<fig> <img src="GoodSkoobLogo.png"> </fig>
 
-Criei esse programa para exportar 301 livros do do Goodreads para o Skoobs. O objetivo é avaliar, colocar na prateleira correta e informar a data de leitura.
+## :scroll: Introdução
 
-## MANUAL DE USO
+> Programa com o objetivo principal de automatizar o processo de avaliar e classificar grande quantidade de livros do site Goodreads para o Skoobs. O projeto foi pensado para usuários familiarizados com Python.
 
-- Baixar o arquivo csv das leituras do goodreads. Para evitar dor de cabeça deixa o nome do jeito que ele veio ao mundo: "goodreads_library_export.csv";
+## :pencil2: Ferramentas
 
-- Copiar o arquivo pra pasta do projeto;
+- [**Python**](https://www.python.org/) - Linguagem de programação utilizada;
+- [**Selenium**](https://www.selenium.dev/) - Ferramenta para automatizar tarefas em navegadores;
+- [**Firefox**](https://www.mozilla.org/pt-BR/firefox/new/) - Navegador utilizado para acesso aos sites;
+- [**Goodreads**](https://www.goodreads.com) - Site para download do arquivo csv com as informações dos livros;
+- [**Skoob**](https://www.skoob.com.br) - Site para cadastrar os livros exportados do Goodreads
 
-- Abrir o arquivo csv e apagar a primeira linha de cabeçalho, salvar e fechar;
 
-- Abrir o arquivo "goodskoob.py" e, nas linhas 16 e 17, digitar seu usuário e senha dentro das aspas, salvar e fechar;
+## :memo: Inicialização
 
-username = "email@fulano.com"
+- **EXPORTAR LIVROS**
+	- Acessar o site **Goodreads** no navegador e fazer login;
+	- Clicar em "My Books";
+	- Na seção "Tools", da coluna no lado direito, clicar em "Import and export";
+	- Clicar no botão "Export library" e aguardar;
+	- Quando aparecer, clicar em "Your export from DD/MM/AAAA - HH:MM" para baixar o arquivo "goodreads_library_export.csv" com as informações de leitura;
 
-password = "uva321pera"
+- **CONFIGURAR DO PROGRAMA**
+	- Abrir o arquivo "goodreads_library_export.csv", apagar a primeira linha (cabeçalho) e salvar as alterações no diretório do programa;
+	- Abrir o arquivo "goodskoob.py";
+	- Na linha 6, atribuir à variável **"navegador"** a função do seu navegador. EX.: webdriver.Chrome(), webdriver.Safari();
+	- Nas linhas 16 e 17, atribuir as variáveis **"username"** e **"password"** seu usuário e senha (dentro das aspas). EX.: username = "email@fulano.com", password = "uva321pera";
+	- Salvar as alterações;
 
-### OBSERVAÇÕES
+- Executar o arquivo "goodskoob.py";
 
-PS_0: Isso aqui é pensado em quem já tem conhecimento prévio em python e programação.
+## :bookmark_tabs: Funcionamento do programa
+<fig> <img src="GoodSkoobFluxograma.png"> </fig>
 
-PS_1: Eu uso o Firefox como navegador, então tendo o ps anterior em mente muda o webdriver no arquivo "goodskoob.py" e coloca o certo na pasta (apaga o geckodriver).
-
-PS_2: Em alguns momentos ele pode falhar mas eu coloquei uns prints no console pra você ter controle de quais já foram. Caso queira parar e continuar outro dia é só apagar os livros já logados.
-
-PS_3: 99% de chance do livro entrar com o título em inglês mas as vezes, por uma intervenção divina, o Skoob entende e coloca em portugues. 
-
-## PASSO-A-PASSO DO PROGRAMA
-
-- abre o navegador
-	- entra no site do skoob
-
-- abre o arquivo com os livros do goodreads
-
-- entra na area de login
-	- endereça todos os campos
-	- preenche os campos
-	- envia os dados
-
-- digita na barra de pesquisa
-	- clica na lupa
-
-- **se for encontrado**
-	- seleciona o primeiro livro
-	- clica no botão adicionar
-	- adiciona na prateleira certa
-
-- **se não for encontrado**
-	- imprime `ERRO AO BUSCAR nome-do-livro`
-
-- **se já for um livro lido**
-	- avalia com as estrelas
-	- abre a aba para editar as informações de leitura
-		- adiciona a data de leitura ou, caso ela esteja vazia, a data que foi adicionado a estante
-		- clica no botão salvar alterações
-		
-- **se ocorreu um erro na formatação do link**
-	- imprime `ERRO AO DATAR nome-do-livro`
-	
-- volta para a página inicial
-- recomeça a partir da busca
-
-## MEUS PERFIS
+## :pushpin: Contato
 
 [<img align="left" alt="Icone do Skoob que redireciona para o meu perfil" height="50" src="http://paginapessoal.utfpr.edu.br/sidgleyandrade/skoob.png/image" />](https://www.skoob.com.br/usuario/2568230)
 [<img align="left" alt="Icone do Goodreads que redireciona para o meu perfil" height="50" src="https://cdn.icon-icons.com/icons2/1125/PNG/512/1486164216-goodreadslinerround_79638.png" />](https://www.goodreads.com/user/show/117475440-beatriz-de-oliveira)

@@ -8,8 +8,8 @@ navegador.get("https://www.skoob.com.br/")
 
 
 #ARQUIVO COM OS LIVROS
-estante = open('goodreads_library_export.csv', encoding='utf-8')
-prateleira = csv.reader(estante, delimiter=',')
+biblioteca = open('goodreads_library_export.csv', encoding='utf-8')
+estante = csv.reader(biblioteca, delimiter=',')
 
 
 #LOGIN
@@ -21,7 +21,7 @@ logar(username, password, navegador)
 encontrado = True
 
 
-for livro in prateleira:
+for livro in estante:
   
 	#INFO BÁSICA DO LIVRO
 	title = formatar_nome(livro[1])
